@@ -1,6 +1,6 @@
 from utils import combine_src_hyp_ref, save_raw_segments, save_segments_for_xcomet, save_segments_for_metricx24, save_segments_for_gemba
 
-HYP_PATH = "en_bnBD_gptoss20b.jsonl"
+HYP_PATH = "OPUS-en-ja.jsonl"
 
 # Given a specified file containing hypotheses (output from the collect translations pipeline), 
 # Prepare the necessary files for scoring translation performance.
